@@ -55,22 +55,6 @@ json-server --watch .\db.json --port=5000
 <br/>
 
 **IMPORTANTE: Mantener las dos terminales corriendo para la correcta ejecución de la app.**
-## ⚙️ Comandos necesarios para el deploy de la app React
-
-```console
-npm run build
-```
-↑ Optimiza el código y crea la carpeta build para el deploy.
-
-```console
-npm install -g serve
-```
-↑ Installa el serve para crear un servidor estático.
-
-```console
-serve -s build
-```
-↑ Ejecuta el servidor.
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
