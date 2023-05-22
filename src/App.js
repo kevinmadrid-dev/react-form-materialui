@@ -6,6 +6,7 @@ function App() {
     //Eliminar el "div", porque react permite tener un solo elemento padre (Fragment)
     //La etiqueta vacía permite trabajar con diferentes estilos css
     <>
+      <h1>Formulario de registro</h1>
       <FormSignUp />
     </>
   )
