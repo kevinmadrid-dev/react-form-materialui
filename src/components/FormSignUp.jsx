@@ -1,22 +1,45 @@
-import Button from "@mui/material/Button"
+import {
+  Button,
+  TextField,
+  Switch,
+  FormGroup,
+  FormControlLabel
+} from "@mui/material"
 
 function FormSignUp() {
   return (
     <form>
-      <label>Nombres</label>
-      <input type="text" />
+      <TextField
+        id="name"
+        label="Nombre"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
 
-      <label>Apellidos</label>
-      <input type="text" />
+      <TextField
+        id="last-name"
+        label="Apellidos"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
 
-      <label>Correo electrónico</label>
-      <input type="email" />
+      <TextField
+        id="e-mail"
+        label="E-mail"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
 
-      <label>Promociones</label>
-      <input type="checkbox" />
+      <FormGroup>
+        <FormControlLabel control={<Switch defaultChecked />} label="Promociones" />
+      </FormGroup>
 
-      <label>Novedades</label>
-      <input type="checkbox" />
+      <FormGroup>
+        <FormControlLabel control={<Switch defaultChecked />} label="Novedades" />
+      </FormGroup>
 
       <Button variant="contained">Registrar</Button>
     </form>
