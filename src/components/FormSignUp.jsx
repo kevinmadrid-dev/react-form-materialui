@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react"
 import {
   Button,
   TextField,
@@ -7,6 +8,9 @@ import {
 } from "@mui/material"
 
 function FormSignUp() {
+  const [name, setName] = useState("")
+  useEffect(() => {}, [name])
+
   return (
     <form>
       <TextField
@@ -15,6 +19,11 @@ function FormSignUp() {
         variant="outlined"
         fullWidth
         margin="normal"
+        onChange={(e) => {
+          console.log(e.target.value)
+          setName(e.target.value)
+        }}
+        value={name}
       />
 
       <TextField
