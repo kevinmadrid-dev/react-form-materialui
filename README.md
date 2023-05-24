@@ -59,7 +59,7 @@ serve -s build
 ↑ Ejecuta el servidor.
 
 ## ▶️ Deploy de app
-* Vercel => [Form SignUp](https://org-k3yjey.vercel.app/)
+* Vercel => [Form SignUp](https://react-function-components-k3yjey.vercel.app/)
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
