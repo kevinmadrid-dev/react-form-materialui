@@ -1,7 +1,7 @@
 # React - Componentes funcionales
 
 ## 📦 Sobre el repositorio
-Tercer proyecto de la librería React
+Tercer proyecto de la librería React, en cual implemetaremos un form y se aplicarán estilos con Material UI, a través de los Hooks manejaremos estados y validaciones para el form.
 
 ## ✔️ [El respositorio aquí](https://github.com/K3yJey/react-styled_components.git)
 
@@ -40,21 +40,26 @@ Ctrl + C
 ```
 ↑ Si deseas culminar el servidor react.
 
-<br/>
+**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
 
-```console
-npm -g json-server
-```
-↑ Instalar el servidor db.json.
+## ⚙️ Comandos necesarios para el deploy de la app React
+``` console
+npm run build
+``` 
+↑ Optimiza el código y crea la carpeta build para el deploy.
 
-```console
-json-server --watch .\db.json --port=5000
-```
-↑ Iniciar el servidor db.json en el puerto 5000.
+``` console
+npm install -g serve
+``` 
+↑ Installa el serve para crear un servidor estático.
 
-<br/>
+``` console
+serve -s build 
+``` 
+↑ Ejecuta el servidor.
 
-**IMPORTANTE: Mantener las dos terminales corriendo para la correcta ejecución de la app.**
+## ▶️ Deploy de app
+* Vercel => [Form SignUp](https://org-k3yjey.vercel.app/)
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
