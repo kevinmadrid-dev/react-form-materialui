@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import {
   Button,
   TextField,
@@ -7,22 +7,27 @@ import {
   FormControlLabel
 } from "@mui/material"
 
-function FormSignUp() {
+//{ handleSubmit } deestructurado desde el atributo
+function FormSignUp({ handleSubmit }) {
   const [name, setName] = useState("")
-  useEffect(() => {}, [name])
+  const [lastName, setLastName] = useState("")
+  const [email, setEmail] = useState("")
+  const [prom, setProm] = useState(true)
+  const [nov, setNov] = useState(true)
 
   return (
-    <form>
+    <form
+      onSubmit={(e) => {
+        e.preventDefault()
+        handleSubmit({ name, lastName, email, prom, nov })
+      }}>
       <TextField
         id="name"
         label="Nombre"
         variant="outlined"
         fullWidth
         margin="normal"
-        onChange={(e) => {
-          console.log(e.target.value)
-          setName(e.target.value)
-        }}
+        onChange={(e) => setName(e.target.value)}
         value={name}
       />
 
@@ -32,6 +37,8 @@ function FormSignUp() {
         variant="outlined"
         fullWidth
         margin="normal"
+        onChange={(e) => setLastName(e.target.value)}
+        value={lastName}
       />
 
       <TextField
@@ -40,17 +47,29 @@ function FormSignUp() {
         variant="outlined"
         fullWidth
         margin="normal"
+        onChange={(e) => setEmail(e.target.value)}
+        value={email}
       />
 
       <FormGroup>
-        <FormControlLabel control={<Switch defaultChecked />} label="Promociones" />
+        <FormControlLabel
+          control={
+            <Switch onChange={(e) => setProm(e.target.checked)} checked={prom} />
+          }
+          label="Promociones"
+        />
+
+        <FormControlLabel
+          control={
+            <Switch onChange={(e) => setNov(e.target.checked)} checked={nov} />
+          }
+          label="Novedades"
+        />
       </FormGroup>
 
-      <FormGroup>
-        <FormControlLabel control={<Switch defaultChecked />} label="Novedades" />
-      </FormGroup>
-
-      <Button variant="contained">Registrar</Button>
+      <Button type="submit" variant="contained">
+        Registrar
+      </Button>
     </form>
   )
 }

@@ -3,6 +3,10 @@ import { Container, Typography } from "@mui/material"
 import FormSignUp from "./components/FormSignUp.jsx"
 
 function App() {
+  const handleSubmit = (valores) => {
+    console.log("App:", valores)
+  }
+
   return (
     //Eliminar el "div", porque react permite tener un solo elemento padre (Fragment)
     //La etiqueta vacía permite trabajar con diferentes estilos css
@@ -11,7 +15,7 @@ function App() {
         Formulario de registro
       </Typography>
 
-      <FormSignUp />
+      <FormSignUp handleSubmit={handleSubmit} />
     </Container>
   )
 }
