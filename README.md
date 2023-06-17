@@ -1,7 +1,7 @@
 # React - Componentes funcionales
 
 ## 📦 Sobre el repositorio
-Tercer proyecto de la librería React, en cual implemetaremos un form y se aplicarán estilos con Material UI, a través de los Hooks manejaremos estados y validaciones para el form.
+Tercer proyecto React, en cual implemetaremos un form y se aplicarán estilos con Material UI, a través de los Hooks manejaremos estados y validaciones para el form.
 
 ## ✔️ [El respositorio aquí](https://github.com/K3yJey/react-styled_components.git)
 
@@ -12,7 +12,7 @@ Tercer proyecto de la librería React, en cual implemetaremos un form y se aplic
 * ![React](https://img.shields.io/badge/React-100000?style=for-the-badge&logo=React&logoColor=00dafc&labelColor=222222&color=222222)
 
 ## 📌 Comentarios adicionales
-Proyecto en progreso.
+Proyecto culminado.
 
 ## ⚙️ Comandos necesarios para la creación de la app React
 ```console
