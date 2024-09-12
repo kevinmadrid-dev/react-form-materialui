@@ -1,65 +1,40 @@
-# React - Componentes funcionales
+# React Form with Material UI
 
-## 📦 Sobre el repositorio
-Tercer proyecto React, en cual implemetaremos un form y se aplicarán estilos con Material UI, a través de los Hooks manejaremos estados y validaciones para el form.
+### Description
 
-## ✔️ [El respositorio aquí](https://github.com/K3yJey/react-styled_components.git)
+React Form using Material UI, implementation of states, hooks and frontend validations for the form.
 
-## 🔧 Tecnologías utilizadas
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![React](https://img.shields.io/badge/React-100000?style=for-the-badge&logo=React&logoColor=00dafc&labelColor=222222&color=222222)
+### Technologies
 
-## 📌 Comentarios adicionales
-Proyecto culminado.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![React](https://img.shields.io/badge/React-100000?style=for-the-badge&logo=React&logoColor=00dafc&labelColor=222222&color=222222)
 
-## ⚙️ Comandos necesarios para la creación de la app React
-```console
-npx create-react-app [nombre de la app]
-```
-↑ Crear nuestra app de React
+### Aditionals Commets
 
-```console
-cd [nombre de la app]
-```
-↑ Para ingresar a la carpeta a trabajar con la app
+Project completed.
+
+### Getting started
+
+↓ Launch react app. [http://localhost:3000](http://localhost:3000)
 
 ```console
 npm start
 ```
-↑ Iniciar con el servidor. [http://localhost:3000](http://localhost:3000) para ver la página en tu navegador
+
+↓ Fix this error: "npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates."
 
 ```console
 npm i tar
 ```
-↑ Si tienes este error: "npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates."
 
-```console
-Ctrl + C
-```
-↑ Si deseas culminar el servidor react.
+**IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
-**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
+### App deploy
 
-## ⚙️ Comandos necesarios para el deploy de la app React
-``` console
-npm run build
-``` 
-↑ Optimiza el código y crea la carpeta build para el deploy.
+[React Form in Vercel]()
 
-``` console
-npm install -g serve
-``` 
-↑ Installa el serve para crear un servidor estático.
+### Developer contact
 
-``` console
-serve -s build 
-``` 
-↑ Ejecuta el servidor.
-
-## ▶️ Deploy de app
-* Vercel => [Form SignUp](https://react-function-components-k3yjey.vercel.app/)
-
-## 💻 Contacto
-* Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
+[LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)

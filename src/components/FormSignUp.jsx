@@ -7,7 +7,6 @@ import {
   FormControlLabel
 } from "@mui/material"
 
-//{ handleSubmit } deestructurado desde el atributo
 function FormSignUp({ handleSubmit }) {
   const [name, setName] = useState("")
   const [lastName, setLastName] = useState("")
